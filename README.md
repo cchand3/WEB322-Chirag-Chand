@@ -11,14 +11,14 @@ Installation:
     In your terminal, navigate to the project folder.
     Install the required packages by running:
 
-npm install
+- npm install
 
 Running the Application:
 
 Start the server using:
 
-node server.js OR
-npm start
+- node server.js OR
+- npm start
 
 Then, open your web browser and visit the application at the provided local URL (localhost:8080).
 
