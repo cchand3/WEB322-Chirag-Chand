@@ -1,11 +1,11 @@
 # WEB322-Chirag-Chand
  web322 ass repo
 
-Prerequisites:
+# Prerequisites:
 
 You'll need Node.js and npm (Node Package Manager) installed on your computer.
 
-Installation:
+# Installation:
 
     Download or clone the project.
     In your terminal, navigate to the project folder.
@@ -13,7 +13,7 @@ Installation:
 
 - npm install
 
-Running the Application:
+# Running the Application:
 
 Start the server using:
 
@@ -22,7 +22,7 @@ Start the server using:
 
 Then, open your web browser and visit the application at the provided local URL (localhost:8080).
 
-Features:
+# Features:
 
 The application includes:
 
@@ -30,13 +30,13 @@ The application includes:
     List View: Shows a list of users.
     Detail Page: Gives detailed info about a selected user.
 
-Login Credentials:
+# Login Credentials:
 
 To explore the app, use these login details:
 
     Username: root
     Password: root
 
-Data Source:
+# Data Source:
 
-The app uses static JSON data to display user information.
+The app uses static JSON data to display user information (fakeUsers.json).
