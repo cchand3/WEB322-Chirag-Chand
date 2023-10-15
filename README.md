@@ -1,5 +1,4 @@
-# WEB322-Chirag-Chand
- web322 ass repo
+# Assignment 2
 
 # Prerequisites:
 
