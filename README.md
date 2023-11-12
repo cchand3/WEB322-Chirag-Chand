@@ -54,54 +54,46 @@ Users
 
     Get All Users:
 
-    bash
-
-curl http://localhost:3000/api/users
+    ~bash curl http://localhost:3000/api/users
 
 Get User by ID:
 
-bash
+~bash
 
 # Replace :id with the actual user ID
 curl http://localhost:3000/api/users/:id
 
 Delete User by ID:
 
-bash
+~bash
 
 # Replace :id with the actual user ID
 curl -X DELETE http://localhost:3000/api/users/:id
 
 Add a New User:
 
-bash
-
-    curl -X POST -H "Content-Type: application/json" -d "{\"firstName\":\"John\",\"lastName\":\"Doe\",\"email\":\"john@doe.com\",\"password\":\"johndoe\",\"dob\":\"1990-01-01T00:00:00.000Z\",\"company\":\"John Doe\",\"phone\":\"123-456-7890\"}" http://localhost:3000/api/users
+~bash curl -X POST -H "Content-Type: application/json" -d "{\"firstName\":\"John\",\"lastName\":\"Doe\",\"email\":\"john@doe.com\",\"password\":\"johndoe\",\"dob\":\"1990-01-01T00:00:00.000Z\",\"company\":\"John Doe\",\"phone\":\"123-456-7890\"}" http://localhost:3000/api/users
 
 Products
 
     Get All Products:
 
-    bash
-
-curl http://localhost:3000/api/products
+    ~bash curl http://localhost:3000/api/products
 
 Get Product by ID:
 
-bash
+~bash
 
 # Replace :id with the actual product ID
 curl http://localhost:3000/api/products/:id
 
 Delete Product by ID:
 
-bash
+~bash
 
 # Replace :id with the actual product ID
 curl -X DELETE http://localhost:3000/api/products/:id
 
 Add a New Product:
 
-bash
-
-curl -X POST -H "Content-Type: application/json" -d "{\"name\":\"Sample Product\",\"description\":\"Lorem ipsum dolor sit amet\",\"price\":19.99,\"stock\":100}" http://localhost:3000/api/products    
+~bash curl -X POST -H "Content-Type: application/json" -d "{\"name\":\"Sample Product\",\"description\":\"Lorem ipsum dolor sit amet\",\"price\":19.99,\"stock\":100}" http://localhost:3000/api/products    
