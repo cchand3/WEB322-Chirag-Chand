@@ -8,15 +8,11 @@ Setup:
 
     Clone the repository:
 
-    bash
-
-git clone https://github.com/-----------------
+    ~bash git clone https://github.com/cchand3/WEB322-Chirag-Chand
 
 Navigate to the project directory:
 
-bash
-
-cd --------
+~bash cd WEB322-Chirag-Chand
 
 Install dependencies:
 
