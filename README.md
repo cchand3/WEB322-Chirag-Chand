@@ -60,14 +60,14 @@ Get User by ID:
 
 ~bash
 
-# Replace :id with the actual user ID
+Replace :id with the actual user ID
 curl http://localhost:3000/api/users/:id
 
 Delete User by ID:
 
 ~bash
 
-# Replace :id with the actual user ID
+Replace :id with the actual user ID
 curl -X DELETE http://localhost:3000/api/users/:id
 
 Add a New User:
@@ -80,18 +80,12 @@ Products
 
     ~bash curl http://localhost:3000/api/products
 
-Get Product by ID:
-
-~bash
-
-# Replace :id with the actual product ID
-curl http://localhost:3000/api/products/:id
 
 Delete Product by ID:
 
 ~bash
 
-# Replace :id with the actual product ID
+Replace :id with the actual product ID
 curl -X DELETE http://localhost:3000/api/products/:id
 
 Add a New Product:
