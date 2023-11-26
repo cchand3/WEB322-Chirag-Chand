@@ -48,7 +48,7 @@ Install dependencies:
 
 bash
 
-    `npm install`
+`npm install`
 
 Usage:
 
