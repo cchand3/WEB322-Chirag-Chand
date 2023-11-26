@@ -37,19 +37,18 @@ Ensure you have the following installed:
 1. Clone the repository:
    ```bash
    git clone https://github.com/cchand3/WEB322-Chirag-Chand ```
-
    
 Navigate to the project folder:
 
 bash
 
-cd WEB322-Chirag-Chand
+`cd WEB322-Chirag-Chand`
 
 Install dependencies:
 
 bash
 
-    npm install
+    `npm install`
 
 Usage:
 
@@ -57,15 +56,15 @@ To run the project locally, use:
 
 bash
 
-npm start
+`npm start`
 
 or
 
 bash
 
-node server.js
+`node server.js`
 
-Access the server at: http://localhost:3000/
+Access the server at: `http://localhost:3000/`
 
 API Endpoints:
 
