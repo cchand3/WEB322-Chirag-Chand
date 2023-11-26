@@ -36,7 +36,7 @@ Ensure you have the following installed:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/cchand3/WEB322-Chirag-Chand
+   git clone https://github.com/cchand3/WEB322-Chirag-Chand ```
 
    
 Navigate to the project folder:
