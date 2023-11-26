@@ -109,7 +109,7 @@ Additionally,
 - Company: Tech Co., Ltd.
 - Phone: 080-1234-5678
 
-   {
+{
       "id": 1,
       "name": "Sakura Yamamoto",
       "email": "sakura.yamamoto@example.com",
@@ -143,7 +143,7 @@ Additionally,
 - User ID: 1
 - Product ID: 1
 
-    {
+{
       "id": 1,
       "userId": 1,
       "productId": 1
