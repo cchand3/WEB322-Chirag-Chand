@@ -87,7 +87,7 @@ API Endpoints:
     Fetches details of a single user along with their order information, identified by the provided ID.
 
     Additional Endpoints:
-    Similar CRUD endpoints are available for users and products.
+    Similar CRUD endpoints are available for users and products.```
 
     Note:
     I've extensively tested all CRUD endpoints using Postman, but since the database may currently have limited or no records, some features on the main page might not function as expected. However, you can still fully utilize and test the CRUD functionalities by interacting with the provided API endpoints.
