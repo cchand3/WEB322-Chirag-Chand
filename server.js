@@ -27,7 +27,7 @@ const sequelize = new Sequelize("SenecaDB", "cchand3", "4WsMO5BvjoVC", {
 sequelize
   .authenticate()
   .then(() => {
-    console.log("connection to the database successful.");
+    console.log("connected to the database successfully.");
   })
   .catch((err) => {
     console.error("unable to connect to database:", err);

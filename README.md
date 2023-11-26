@@ -36,19 +36,19 @@ Ensure you have the following installed:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/cchand3/WEB322-Chirag-Chand
+   git clone https://github.com/cchand3/WEB322-Chirag-Chand ```
+   
+Navigate to the project folder:
 
-    Navigate to the project folder:
+bash
 
-    bash
-
-cd WEB322-Chirag-Chand
+`cd WEB322-Chirag-Chand`
 
 Install dependencies:
 
 bash
 
-    npm install
+`npm install`
 
 Usage:
 
@@ -56,15 +56,16 @@ To run the project locally, use:
 
 bash
 
-npm start
+`npm start`
 
 or
 
 bash
 
-node server.js
+`node server.js`
 
-Access the server at: http://localhost:3000/
+Access the server at: `http://localhost:3000/`
+
 API Endpoints:
 
     GET /api/orders:
@@ -88,5 +89,62 @@ API Endpoints:
     Additional Endpoints:
     Similar CRUD endpoints are available for users and products.
 
-    Note:
-    I've extensively tested all CRUD endpoints using Postman, but since the database may currently have limited or no records, some features on the main page might not function as expected. However, you can still fully utilize and test the CRUD functionalities by interacting with the provided API endpoints.
+    
+Note:
+I've extensively tested all CRUD endpoints using Postman, but since the database may currently have limited or no records, some features on the main page might not function as expected. However, you can still fully utilize and test the CRUD functionalities by interacting with the provided API endpoints.
+
+# Sample Database Records
+
+## Users
+
+### User 1
+- ID: 1
+- First Name: Sakura
+- Last Name: Yamamoto
+- Email: sakura.yamamoto@example.com
+- Password: hashed_password
+- Date of Birth: 1990-05-15
+- Company: Tech Co., Ltd.
+- Phone: 080-1234-5678
+
+{
+      "id": 1,
+      "name": "Sakura Yamamoto",
+      "email": "sakura.yamamoto@example.com",
+      "password": "hashed_password",
+      "birthday": "1990-05-15",
+      "company": "Tech Co., Ltd.",
+      "phone": "080-1234-5678"
+    }
+
+## Products
+
+### Product 1
+- ID: 1
+- Name: Laptop
+- ISBN: LAPTOP123
+- Price: ¥120000.00
+- Description: Lightweight and high-performance laptop computer.
+
+{
+      "id": 1,
+      "name": "Laptop",
+      "isbn": "LAPTOP123",
+      "price": 120000.00,
+      "description": "Super cool and lightweight laptop!"
+    }
+    
+## Orders
+
+### Order 1
+- ID: 1
+- User ID: 1
+- Product ID: 1
+
+{
+      "id": 1,
+      "userId": 1,
+      "productId": 1
+    }
+  
+I took the lazy route and stuck to the existing default database schema for users, products, and orders. Just to keep things rolling smoothly.
