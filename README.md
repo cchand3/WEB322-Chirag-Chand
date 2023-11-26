@@ -38,9 +38,10 @@ Ensure you have the following installed:
    ```bash
    git clone https://github.com/cchand3/WEB322-Chirag-Chand
 
-    Navigate to the project folder:
+   
+Navigate to the project folder:
 
-    bash
+bash
 
 cd WEB322-Chirag-Chand
 
