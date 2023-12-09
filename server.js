@@ -41,6 +41,7 @@ app.set("view engine", "ejs");
 
 // use bodyparser middleware for parsing JSON requests
 app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
 
 // import route handlers for pages and API
 const pageRoutes = require("./routes/page.routes");
